@@ -1,7 +1,7 @@
 {
   "name": "slavik-component-library",
   "version": "1.0.4",
-  "description": "This is a React Modal Component.",
+  "description": "",
   "main": "./lib/index",
   "scripts": {
     "build": "babel src --out-dir lib --source-maps-inline",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shibe97/react-awesome-modal.git"
+    "url": "https://github.com/slavik0329/slavik-component-library.git"
   },
-  "author": "shibe97",
+  "author": "slavik0329",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.6.5",
@@ -24,9 +24,5 @@
     "react": "^15.0.1",
     "react-addons-test-utils": "^15.0.1",
     "react-dom": "^15.0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/shibe97/react-awesome-modal/issues"
-  },
-  "homepage": "https://github.com/shibe97/react-awesome-modal"
+  }
 }
