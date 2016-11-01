@@ -1,5 +1,5 @@
 {
-  "name": "react-awesome-modal",
+  "name": "slavik-component-library",
   "version": "1.0.2",
   "description": "This is a React Modal Component.",
   "main": "./lib/index",
@@ -17,9 +17,6 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib --source-maps-inline",
-    "watch": "babel src --out-dir lib --watch --source-maps-inline",
-    "test": "mocha --compilers js:babel-core/register test/**/*.js",
-    "example": "gulp build && open examples/index.html"
   },
   "repository": {
     "type": "git",
@@ -34,14 +31,9 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
-    "gulp": "^3.9.0",
-    "mocha": "~2.3.2",
-    "power-assert": "~1.0.0",
     "react": "^15.0.1",
     "react-addons-test-utils": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "vinyl-source-stream": "^1.1.0"
+    "react-dom": "^15.0.1"
   },
   "bugs": {
     "url": "https://github.com/shibe97/react-awesome-modal/issues"
