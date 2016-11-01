@@ -16,7 +16,8 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "babel src --out-dir lib --source-maps-inline"
+    "build": "babel src --out-dir lib --source-maps-inline",
+    "postinstall": "babel src --out-dir lib --source-maps-inline"
   },
   "repository": {
     "type": "git",
