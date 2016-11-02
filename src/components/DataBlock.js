@@ -42,7 +42,7 @@ const styles = {
     textAlign: "center",
     fontSize: 28,
     fontWeight: 200,
-    marginTop: 10,
+    marginTop: 2,
     color: "#666"
   }
 };
